@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080808">
+    <meta name="description" content="نصمم ونبرمج مواقع إلكترونية احترافية تجمع بين الإبداع والأداء.">
+    <title>GOLDEN | تصميم وتطوير المواقع</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@formspree/ajax@1.0.1/dist/formspree.ajax.min.js"></script>
+</head>
+<body>
+
+    <div class="page-glow"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">M</span>
+                <span>MOUHSIN<span class="gold">.</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" data-i18n="navHome">الرئيسية</a>
+                <a href="#about" data-i18n="navAbout">من نحن</a>
+                <a href="#services" data-i18n="navServices">خدماتنا</a>
+                <a href="#faq" data-i18n="navFaq">الأسئلة</a>
+                <a href="#contact" data-i18n="navContact">تواصل معنا</a>
+            </nav>
+
+            <div class="nav-actions">
+                <select id="languageSelect" aria-label="Language">
+                    <option value="ar">AR</option>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+
+                <a href="#contact" class="nav-cta" data-i18n="navButton">
+                    ابدأ مشروعك
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <h1 data-i18n="heroTitle">نصنع مواقع<br><span class="gold">تترك انطباعاً.</span></h1>
+                    <p class="hero-description" data-i18n="heroDescription">نصمم ونبرمج مواقع إلكترونية عصرية تجمع بين الجمال والسرعة وتجربة المستخدم الاستثنائية.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary"><span data-i18n="heroButton">ابدأ مشروعك الآن</span><span class="arrow">↗</span></a>
+                        <a href="#services" class="btn btn-outline" data-i18n="heroSecondary">اكتشف خدماتنا</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="visual-glow"></div>
+                    <div class="browser-card">
+                        <div class="browser-top">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-address">yourwebsite.com</div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-nav">
+                                <div class="mockup-logo">BRAND<span>.</span></div>
+                                <div class="mockup-menu"><i></i><i></i><i></i></div>
+                            </div>
+                            <div class="mockup-hero">
+                                <div class="mockup-label"></div>
+                                <div class="mockup-title"></div>
+                                <div class="mockup-title short"></div>
+                                <div class="mockup-text"></div>
+                                <div class="mockup-button"></div>
+                            </div>
+                            <div class="mockup-bottom"><div></div><div></div><div></div></div>
+                        </div>
+                    </div>
+                    <div class="floating-card floating-top">
+                        <span class="floating-icon">✦</span>
+                        <div><strong>100%</strong><small data-i18n="floatingResponsive">متجاوب</small></div>
+                    </div>
+                    <div class="floating-card floating-bottom">
+                        <span class="floating-icon">↗</span>
+                        <div><strong>Modern</strong><small data-i18n="floatingDesign">تصميم عصري</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-tag" data-i18n="aboutTag">من نحن</span>
+                    <h2 data-i18n="aboutTitle">أكثر من مجرد موقع،<br><span class="gold">إنها هويتك الرقمية.</span></h2>
+                    <p data-i18n="aboutDescription">نؤمن بأن الموقع الإلكتروني هو واجهتك الأولى أمام العالم. لذلك نعمل على تقديم حلول رقمية تجمع بين التصميم المدروس والتطوير التقني وتجربة الاستخدام المميزة.</p>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">✧</div>
+                        <h3 data-i18n="featureOneTitle">تصميم مميز</h3>
+                        <p data-i18n="featureOneText">تصاميم عصرية تعكس هوية مشروعك وتمنحه حضوراً مختلفاً.</p>
+                        <span class="feature-number">01</span>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">⌘</div>
+                        <h3 data-i18n="featureTwoTitle">تطوير احترافي</h3>
+                        <p data-i18n="featureTwoText">برمجة منظمة وأداء سريع وتجربة استخدام سلسة.</p>
+                        <span class="feature-number">02</span>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">◈</div>
+                        <h3 data-i18n="featureThreeTitle">توافق كامل</h3>
+                        <p data-i18n="featureThreeText">مواقع تعمل بكفاءة على الهواتف والأجهزة اللوحية والحواسيب.</p>
+                        <span class="feature-number">03</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading centered reveal">
+                    <span class="section-tag" data-i18n="servicesTag">خدماتنا</span>
+                    <h2 data-i18n="servicesTitle">حلول رقمية<br><span class="gold">مصممة لنجاحك.</span></h2>
+                    <p data-i18n="servicesDescription">نوفر لك كل ما تحتاجه لبناء حضور رقمي احترافي.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="service-top"><span class="service-icon">◫</span><span class="service-index">01</span></div>
+                        <h3 data-i18n="serviceOneTitle">إصلاح المواقع</h3>
+                        <p data-i18n="serviceOneText">نعالج أخطاء المواقع ونحسّن أداءها لضمان تجربة استخدام سلسة ومستقرة.</p>
+                        <a href="#contact" class="service-link"><span data-i18n="serviceLink">اطلب الخدمة</span><span>↗</span></a>
+                    </article>
+                    <article class="service-card featured-service reveal">
+                        <div class="service-top"><span class="service-icon">⌘</span><span class="service-index">02</span></div>
+                        <h3 data-i18n="serviceTwoTitle">تطوير المواقع</h3>
+                        <p data-i18n="serviceTwoText">تحويل التصاميم إلى مواقع حقيقية سريعة ومنظمة وقابلة للتطوير.</p>
+                        <a href="#contact" class="service-link"><span data-i18n="serviceLink">اطلب الخدمة</span><span>↗</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-top"><span class="service-icon">▣</span><span class="service-index">03</span></div>
+                        <h3 data-i18n="serviceThreeTitle">المتاجر الإلكترونية</h3>
+                        <p data-i18n="serviceThreeText">إنشاء متاجر إلكترونية تساعدك على عرض منتجاتك والوصول لعملائك.</p>
+                        <a href="#contact" class="service-link"><span data-i18n="serviceLink">اطلب الخدمة</span><span>↗</span></a>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-top"><span class="service-icon">✧</span><span class="service-index">04</span></div>
+                        <h3 data-i18n="serviceFourTitle">تطوير الهوية الرقمية</h3>
+                        <p data-i18n="serviceFourText">بناء حضور بصري متناسق يعبر عن علامتك التجارية.</p>
+                        <a href="#contact" class="service-link"><span data-i18n="serviceLink">اطلب الخدمة</span><span>↗</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-card reveal">
+                    <div class="cta-decoration">G</div>
+                    <span class="section-tag" data-i18n="ctaTag">لديك فكرة؟</span>
+                    <h2 data-i18n="ctaTitle">دعنا نحول فكرتك<br>إلى <span class="gold">شيء استثنائي.</span></h2>
+                    <p data-i18n="ctaText">كل مشروع رائع يبدأ بخطوة. أخبرنا عن فكرتك ولنبدأ معاً.</p>
+                    <a href="#contact" class="btn btn-primary"><span data-i18n="ctaButton">تحدث معنا</span><span class="arrow">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section faq-section" id="faq">
+            <div class="container faq-layout">
+                <div class="faq-intro reveal">
+                    <span class="section-tag" data-i18n="faqTag">الأسئلة الشائعة</span>
+                    <h2 data-i18n="faqTitle">هل لديك<br><span class="gold">استفسار؟</span></h2>
+                    <p data-i18n="faqDescription">إليك إجابات عن بعض الأسئلة التي قد تدور في ذهنك.</p>
+                </div>
+                <div class="faq-list reveal">
+                    <div class="faq-item active">
+                        <button class="faq-question" aria-expanded="true"><span data-i18n="faqOneQuestion">كم يستغرق إنشاء الموقع؟</span><span class="faq-plus">+</span></button>
+                        <div class="faq-answer"><p data-i18n="faqOneAnswer">تختلف المدة حسب حجم المشروع ومتطلباته، ويتم تحديد الجدول الزمني بعد الاتفاق على التفاصيل.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false"><span data-i18n="faqTwoQuestion">هل يعمل الموقع على الهاتف؟</span><span class="faq-plus">+</span></button>
+                        <div class="faq-answer"><p data-i18n="faqTwoAnswer">نعم، نحرص على أن تكون المواقع متجاوبة مع الهواتف والأجهزة اللوحية والحواسيب.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false"><span data-i18n="faqThreeQuestion">هل يمكنني طلب تعديلات؟</span><span class="faq-plus">+</span></button>
+                        <div class="faq-answer"><p data-i18n="faqThreeAnswer">بالتأكيد، يمكن مناقشة التعديلات المطلوبة وتحديدها ضمن نطاق المشروع المتفق عليه.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false"><span data-i18n="faqFourQuestion">كيف أبدأ مشروعي؟</span><span class="faq-plus">+</span></button>
+                        <div class="faq-answer"><p data-i18n="faqFourAnswer">أرسل لنا تفاصيل فكرتك من خلال نموذج التواصل وسنتواصل معك لمناقشة الخطوات التالية.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <span class="section-tag" data-i18n="contactTag">تواصل معنا</span>
+                    <h2 data-i18n="contactTitle">لنبدأ مشروعك<br><span class="gold">القادم.</span></h2>
+                    <p data-i18n="contactDescription">أخبرنا عن فكرتك، وسنساعدك في تحويلها إلى تجربة رقمية مميزة.</p>
+                    <div class="contact-detail">
+                        <!-- <span class="detail-icon">✉</span> -->
+                        <!-- <div><small data-i18n="emailLabel">البريد الإلكتروني</small><strong>hello@example.com</strong></div> -->
+                    </div>
+                    <div class="contact-detail">
+                        <span class="detail-icon">⌖</span>
+                        <div><small data-i18n="locationLabel">الموقع</small><strong data-i18n="locationValue">نعمل مع عملائنا أينما كانوا</strong></div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-heading">
+                        <h3 data-i18n="formTitle">أرسل لنا رسالة</h3>
+                        <p data-i18n="formDescription">املأ البيانات التالية وسنتواصل معك.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" data-i18n="nameLabel">الاسم</label>
+                        <input type="text" id="name" name="name" placeholder="اسمك الكامل" data-i18n-placeholder="namePlaceholder" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="emailFieldLabel">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service" data-i18n="serviceLabel">الخدمة المطلوبة</label>
+                        <select id="service" name="service" required>
+                            <option value="" data-i18n="servicePlaceholder">اختر الخدمة</option>
+                            <option value="design" data-i18n="optionDesign">تصميم المواقع</option>
+                            <option value="development" data-i18n="optionDevelopment">تطوير المواقع</option>
+                            <option value="ecommerce" data-i18n="optionEcommerce">متجر إلكتروني</option>
+                            <option value="other" data-i18n="optionOther">خدمة أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="messageLabel">تفاصيل المشروع</label>
+                        <textarea id="message" name="message" rows="4" placeholder="أخبرنا عن فكرتك..." data-i18n-placeholder="messagePlaceholder" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn"><span data-i18n="submitButton">إرسال الرسالة</span><span>↗</span></button>
+                    <p class="form-note" id="formMessage" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo"><span class="logo-icon">G</span><span>GOLDEN<span class="gold">.</span></span></a>
+            <p data-i18n="footerText">نصنع تجارب رقمية تترك أثراً.</p>
+            <span class="copyright">© <span id="year"></span> GOLDEN. <span data-i18n="rights">جميع الحقوق محفوظة.</span></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
